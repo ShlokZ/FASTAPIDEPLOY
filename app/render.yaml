@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: FASTAPIDEPLOY
+    env: docker
+    repo: https://github.com/ShlokZ/FASTAPIDEPLOY.git
+    autoDeploy: true
